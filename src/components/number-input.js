@@ -9,7 +9,7 @@ export default function NumberInput(props) {
         id={props.id}
         min={props.min}
         max={props.max}
-        onChange={e => props.onChange(e.tartget.value)}
+        onChange={e => props.onChange(e.target.value)}
         value={props.value}
       />
     </div>
